@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'CP-medium';
+	src: url('../fonts/ChakraPetch-Medium.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'CP-regular';
+	src: url('../fonts/ChakraPetch-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'CP-semibold';
+	src: url('../fonts/ChakraPetch-SemiBold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+
+:root{
+	--linear: linear-gradient(90deg, #0CBAF1 0%, #E95CE9 100%);
+	--purple: #CA6AEB;
+	--blue: #19B5F1;
+
+	--green: #00C566;
+	--red: #FF4747;
+	--yellow: #FACC15;
+
+	--black: #18181B;
+	--balck-grey: #252532;
+	--grey:#B0B0B2;
+	--light-grey: #D1D1D1;
+	--white: #ffffff;
+}
